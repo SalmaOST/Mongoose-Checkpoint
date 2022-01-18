@@ -16,7 +16,7 @@ const PersonProptype = new Schema({
   age:{type: Number, default:18},
   favoriteFoods: [String]
 })
-const Person = mongoose.model('Person', personSchema)
+module.exports = mongoose.model('Person', personSchema)
 
 
 
