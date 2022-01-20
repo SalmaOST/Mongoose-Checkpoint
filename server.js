@@ -1,4 +1,4 @@
-
+const mongoose=require('mongoose')
 
 
 // Use the mongoose basic *schema types*.
